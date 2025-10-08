@@ -1,37 +1,37 @@
 #include "arvore.h"
 
-No* novoNo(int v){
+No* novoNo(Categoria c){
     No* n = (No*) malloc(sizeof(No));
 
     if(!n){ 
         perror("malloc"); exit(EXIT_FAILURE); 
     }
 
-    n->valor = v;
+    n->valor = c;
     n->esq = n->dir = NULL;
     return n;
 }
 
-No* inserir(No* r, int v){
+No* inserir(No* r, Categoria c){
     if(r == NULL){
-        return novoNo(v);
+        return novoNo(c);
     }
-    if(v < r->valor){
-        r->esq = inserir(r->esq, v);
+    if(c < r->valor){
+        r->esq = inserir(r->esq, c);
     }
-    else if(v > r->valor){
-        r->dir = inserir(r->dir, v);
+    else if(c > r->valor){
+        r->dir = inserir(r->dir, c);
     }
 
     return r;
 }
 
-No* buscar(No* r, int v){
-    if(r == NULL || r->valor == v){
+No* buscar(No* r, int id){
+    if(r == NULL || r->valor == id){
         return r;
     }
 
-    return (v < r->valor) ? buscar(r->esq, v) : buscar(r->dir, v);
+    return (id < r->valor) ? buscar(r->esq, id) : buscar(r->dir, id);
 }
 
 void emOrdem(No* r){
@@ -44,16 +44,16 @@ void emOrdem(No* r){
     emOrdem(r->dir);
 }
 
-No* remover(No* r, int v){
+No* remover(No* r, int id){
     if(r == NULL){
         return NULL;
     }
 
-    if(v < r->valor){
-        r->esq = remover(r->esq, v);
+    if(id < r->valor){
+        r->esq = remover(r->esq, id);
     } 
-    else if(v > r->valor){
-        r->dir = remover(r->dir, v);
+    else if(id > r->valor){
+        r->dir = remover(r->dir, id);
     } 
     else{
         if(r->esq == NULL && r->dir == NULL){

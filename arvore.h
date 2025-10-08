@@ -5,15 +5,15 @@
 #include <stdlib.h>
 
 typedef struct No {
-    int valor;
+    Categoria c;
     struct No *esq, *dir;
 } No;
 
-No* novoNo(int v);
-No* inserir(No* r, int v);
-No* buscar(No* r, int v);
+No* novoNo(Categoria c);
+No* inserir(No* r, Categoria c);
+No* buscar(No* r, int id);
 void emOrdem(No* r);
-No* remover(No* r, int v);
+No* remover(No* r, int id);
 void liberarArvore(No* r);
 
 #endif

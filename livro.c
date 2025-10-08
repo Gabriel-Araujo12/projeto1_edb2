@@ -1,6 +1,6 @@
 #include "livro.h"
 
-Livro inserir(int isbn, char *titulo, char *autor, int ano, float preco, int estoque, int vendas){
+Livro inserirLivro(int isbn, char *titulo, char *autor, int ano, float preco, int estoque, int vendas){
     Livro l;
     l.isbn = isbn;
     strcpy(l.titulo, titulo);
@@ -13,6 +13,6 @@ Livro inserir(int isbn, char *titulo, char *autor, int ano, float preco, int est
     return l;
 }
 
-void exibir(Livro l){
+void exibirLivro(Livro l){
     printf("ISBN: %d | Título: %s | Autor: %s | Ano: %d | Preço: %.2f | Estoque: %d | Vendas: %d\n", l.isbn, l.titulo, l.autor, l.ano, l.preco, l.estoque, l.vendas);
 }

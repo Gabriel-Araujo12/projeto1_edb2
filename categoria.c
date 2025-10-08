@@ -1,6 +1,6 @@
 #include "categoria.h"
 
-Categoria inserir(int id, char *nome, char *arquivo){
+Categoria inserirCategoria(int id, char *nome, char *arquivo){
     Categoria c;
     c.id = id;
     strcpy(c.nome, nome);

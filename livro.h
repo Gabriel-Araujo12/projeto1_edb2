@@ -14,7 +14,7 @@ typedef struct{
     int vendas;
 } Livro;
 
-Livro inserir(int isbn, char *titulo, char *autor, int ano, float preco, int estoque, int vendas);
-void exibir(Livro l);
+Livro inserirLivro(int isbn, char *titulo, char *autor, int ano, float preco, int estoque, int vendas);
+void exibirLivro(Livro l);
 
 #endif
