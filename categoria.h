@@ -13,6 +13,7 @@ typedef struct{
     Heap *livros;
 } Categoria;
 
-Categoria inserirCategoria(int id, char *nome, char *arquivo);
+Categoria criarCategoria(int id, char *nome, char *arquivo);
+void exibirCategoria(Categoria c);
 
 #endif

@@ -7,7 +7,7 @@ No* novoNo(Categoria c){
         perror("malloc"); exit(EXIT_FAILURE); 
     }
 
-    n->valor = c;
+    n->c = c;
     n->esq = n->dir = NULL;
     return n;
 }
@@ -16,10 +16,10 @@ No* inserir(No* r, Categoria c){
     if(r == NULL){
         return novoNo(c);
     }
-    if(c < r->valor){
+    if(c.id < r->c.id){
         r->esq = inserir(r->esq, c);
     }
-    else if(c > r->valor){
+    else if(c.id > r->c.id){
         r->dir = inserir(r->dir, c);
     }
 
@@ -27,11 +27,11 @@ No* inserir(No* r, Categoria c){
 }
 
 No* buscar(No* r, int id){
-    if(r == NULL || r->valor == id){
+    if(r == NULL || r->c.id == id){
         return r;
     }
 
-    return (id < r->valor) ? buscar(r->esq, id) : buscar(r->dir, id);
+    return (id < r->c.id) ? buscar(r->esq, id) : buscar(r->dir, id);
 }
 
 void emOrdem(No* r){
@@ -40,8 +40,14 @@ void emOrdem(No* r){
     }
 
     emOrdem(r->esq);
-    printf("%d ", r->valor);
+    exibirCategoria(r->c); 
     emOrdem(r->dir);
+}
+
+No* maiorNo(No* r){
+    No* atual = r;
+    while (atual && atual->dir) atual = atual->dir;
+    return atual;
 }
 
 No* remover(No* r, int id){
@@ -49,10 +55,10 @@ No* remover(No* r, int id){
         return NULL;
     }
 
-    if(id < r->valor){
+    if(id < r->c.id){
         r->esq = remover(r->esq, id);
     } 
-    else if(id > r->valor){
+    else if(id > r->c.id){
         r->dir = remover(r->dir, id);
     } 
     else{
@@ -72,8 +78,8 @@ No* remover(No* r, int id){
         } 
         else{
             No* pred = maiorNo(r->esq);
-            r->valor = pred->valor;
-            r->esq = remover(r->esq, pred->valor);
+            r->c = pred->c;
+            r->esq = remover(r->esq, pred->c.id);
         }
     }
 

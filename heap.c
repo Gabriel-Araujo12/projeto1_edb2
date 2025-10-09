@@ -10,23 +10,23 @@ Heap* criarHeap(int capacidade){
     Heap* h = (Heap*)malloc(sizeof(Heap));
     h->tamanho = 0;
     h->capacidade = capacidade;
-    h->l = (int*)malloc(capacidade * sizeof(int));
+    h->l = (Livro*)malloc(capacidade * sizeof(Livro));
 
     return h;
 }
 
 void maxHeapify(Heap *h, int i){
     int maior = i;
-    int e = 2 * i;
-    int d = 2 * i + 1;
+    int e = 2 * i + 1;
+    int d = 2 * i + 2;
 
-    if(e <= h->tamanho && h->l[e] > h->l[maior]){
+    if(e <= h->tamanho && h->l[e].vendas > h->l[maior].vendas){
         maior = e;
     }
-    if(d <= h->tamanho && h->l[d] > h->l[maior]){
+    if(d <= h->tamanho && h->l[d].vendas > h->l[maior].vendas){
         maior = d;
     }
-    if(m != i){
+    if(maior != i){
         troca(&h->l[i], &h->l[maior]);
         maxHeapify(h, maior);
     }
@@ -35,13 +35,13 @@ void maxHeapify(Heap *h, int i){
 void construirHeap(Heap *h){
     int n = h->tamanho;
 
-    for(int i = n / 2; i <= 1; i--){
+    for(int i = n / 2; i >= 1; i--){
         maxHeapify(h, i);
     }
 }
 
-Livro buscarRaiz(Heap *h){
-    if(h->size <= 0){
+void buscarRaiz(Heap *h){
+    if(h->tamanho <= 0){
         printf("Não há nenhum livro para exibir!");
 
         return;

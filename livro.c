@@ -1,6 +1,6 @@
 #include "livro.h"
 
-Livro inserirLivro(int isbn, char *titulo, char *autor, int ano, float preco, int estoque, int vendas){
+Livro criarLivro(int isbn, char *titulo, char *autor, int ano, float preco, int estoque, int vendas){
     Livro l;
     l.isbn = isbn;
     strcpy(l.titulo, titulo);

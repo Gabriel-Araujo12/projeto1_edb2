@@ -1,0 +1,101 @@
+isbn;titulo;autor;ano;preco;estoque;vendas
+1;Amor e Destino 1;Margaret Mitchell;1959;117.06;36;134
+2;Ecos do Amor 2;Gabriel García Márquez;1884;135.73;21;551
+3;Ecos do Amor 3;Liev Tolstói;1952;32.92;38;926
+4;Amor e Destino 4;Jane Austen;1886;109.22;28;322
+5;Paixões Proibidas 5;Clarice Lispector;1877;104.34;31;196
+6;Ecos do Amor 6;Liev Tolstói;1851;123.29;29;453
+7;Sombras do Passado 7;Liev Tolstói;2006;82.71;12;489
+8;Sombras do Passado 8;José de Alencar;1902;29.02;40;410
+9;Sombras do Passado 9;Jane Austen;1911;46.31;36;964
+10;Sombras do Passado 10;Jane Austen;1968;145.04;33;792
+11;Sombras do Passado 11;Clarice Lispector;1992;100.29;31;970
+12;Corações em Chamas 12;Clarice Lispector;1888;112.03;12;815
+13;Corações em Chamas 13;Margaret Mitchell;1994;125.21;32;352
+14;Paixões Proibidas 14;Clarice Lispector;1955;121.79;10;370
+15;Corações em Chamas 15;Margaret Mitchell;2021;90.08;10;387
+16;Corações em Chamas 16;Margaret Mitchell;1938;110.18;9;477
+17;Amor e Destino 17;Gabriel García Márquez;1960;33.96;41;981
+18;Ecos do Amor 18;Emily Brontë;1870;124.8;34;889
+19;Corações em Chamas 19;Margaret Mitchell;1945;121.38;13;823
+20;Ecos do Amor 20;Gabriel García Márquez;1900;62.12;38;515
+21;Amor e Destino 21;Liev Tolstói;1929;140.67;35;154
+22;Corações em Chamas 22;Emily Brontë;1971;44.39;19;126
+23;Amor e Destino 23;Liev Tolstói;1990;105.44;13;294
+24;Ecos do Amor 24;Jane Austen;1871;140.43;37;806
+25;Amor e Destino 25;Jane Austen;1881;90.05;31;154
+26;Ecos do Amor 26;José de Alencar;1991;113.96;12;208
+27;Ecos do Amor 27;José de Alencar;1964;26.69;47;711
+28;Ecos do Amor 28;Emily Brontë;1972;69.38;15;778
+29;Amor e Destino 29;Machado de Assis;1971;119.69;19;314
+30;Paixões Proibidas 30;Machado de Assis;1923;141.75;20;343
+31;Paixões Proibidas 31;José de Alencar;1973;144.8;40;312
+32;Ecos do Amor 32;Clarice Lispector;2024;94.86;37;809
+33;Ecos do Amor 33;Machado de Assis;1931;31.41;41;299
+34;Paixões Proibidas 34;Jane Austen;2001;136.44;16;253
+35;Amor e Destino 35;Emily Brontë;1995;63.89;44;168
+36;Sombras do Passado 36;Jane Austen;2016;100.39;30;460
+37;Corações em Chamas 37;Clarice Lispector;1971;84.6;23;918
+38;Paixões Proibidas 38;Jane Austen;2010;64.29;39;743
+39;Amor e Destino 39;Emily Brontë;1978;53.06;34;534
+40;Ecos do Amor 40;José de Alencar;1918;113.15;16;466
+41;Sombras do Passado 41;José de Alencar;1971;102.91;26;905
+42;Corações em Chamas 42;Margaret Mitchell;2023;90.88;21;583
+43;Sombras do Passado 43;Liev Tolstói;1915;29.98;47;584
+44;Corações em Chamas 44;Liev Tolstói;1963;100.32;14;708
+45;Amor e Destino 45;Margaret Mitchell;1995;59.29;25;872
+46;Paixões Proibidas 46;Emily Brontë;1997;42.39;10;262
+47;Corações em Chamas 47;Emily Brontë;1882;25.56;18;670
+48;Ecos do Amor 48;José de Alencar;1926;113.58;14;560
+49;Corações em Chamas 49;Liev Tolstói;1951;59.54;31;823
+50;Corações em Chamas 50;Machado de Assis;1889;77.61;38;903
+51;Amor e Destino 51;Jane Austen;1945;102.69;27;370
+52;Paixões Proibidas 52;José de Alencar;1907;69.3;43;958
+53;Sombras do Passado 53;José de Alencar;1893;142.63;5;201
+54;Corações em Chamas 54;Machado de Assis;1875;72.0;20;919
+55;Sombras do Passado 55;Margaret Mitchell;1916;36.52;11;163
+56;Sombras do Passado 56;Liev Tolstói;1854;60.66;33;615
+57;Corações em Chamas 57;Margaret Mitchell;1880;112.89;14;997
+58;Paixões Proibidas 58;Margaret Mitchell;1919;32.7;39;531
+59;Corações em Chamas 59;Clarice Lispector;1884;72.01;49;440
+60;Ecos do Amor 60;Clarice Lispector;1985;111.22;11;600
+61;Amor e Destino 61;José de Alencar;1968;27.74;49;431
+62;Sombras do Passado 62;Gabriel García Márquez;1932;28.11;11;862
+63;Amor e Destino 63;José de Alencar;1928;113.43;38;817
+64;Corações em Chamas 64;Clarice Lispector;2005;50.01;7;926
+65;Ecos do Amor 65;Liev Tolstói;1887;111.24;31;986
+66;Ecos do Amor 66;Machado de Assis;1941;101.46;38;812
+67;Paixões Proibidas 67;Jane Austen;1910;65.77;9;269
+68;Sombras do Passado 68;José de Alencar;1962;107.1;48;252
+69;Paixões Proibidas 69;Clarice Lispector;1870;138.73;33;605
+70;Corações em Chamas 70;José de Alencar;2022;92.99;50;895
+71;Corações em Chamas 71;Gabriel García Márquez;2019;115.4;23;800
+72;Corações em Chamas 72;Gabriel García Márquez;2020;143.52;26;114
+73;Paixões Proibidas 73;Jane Austen;1865;72.85;47;832
+74;Amor e Destino 74;Clarice Lispector;1940;119.4;20;792
+75;Amor e Destino 75;Emily Brontë;2010;122.34;47;678
+76;Paixões Proibidas 76;Margaret Mitchell;1923;97.97;16;995
+77;Paixões Proibidas 77;José de Alencar;1852;123.47;34;832
+78;Amor e Destino 78;Machado de Assis;1890;139.17;41;665
+79;Sombras do Passado 79;Clarice Lispector;1879;40.32;48;719
+80;Paixões Proibidas 80;Margaret Mitchell;1868;45.97;7;432
+81;Sombras do Passado 81;José de Alencar;1854;30.43;42;255
+82;Ecos do Amor 82;Liev Tolstói;1885;43.01;17;116
+83;Paixões Proibidas 83;Gabriel García Márquez;2004;72.74;12;891
+84;Corações em Chamas 84;José de Alencar;1977;103.16;27;776
+85;Amor e Destino 85;Gabriel García Márquez;1863;94.04;20;143
+86;Paixões Proibidas 86;Clarice Lispector;1933;85.33;46;263
+87;Amor e Destino 87;José de Alencar;1910;58.43;14;566
+88;Corações em Chamas 88;Clarice Lispector;1916;148.36;19;561
+89;Ecos do Amor 89;Machado de Assis;1859;113.97;44;311
+90;Amor e Destino 90;Margaret Mitchell;1942;89.89;40;594
+91;Sombras do Passado 91;Margaret Mitchell;1892;91.2;40;335
+92;Corações em Chamas 92;Jane Austen;1926;51.11;11;212
+93;Corações em Chamas 93;José de Alencar;1988;106.31;5;748
+94;Ecos do Amor 94;Jane Austen;1994;58.84;21;428
+95;Sombras do Passado 95;José de Alencar;1872;95.72;22;66
+96;Paixões Proibidas 96;Machado de Assis;1853;92.78;9;366
+97;Paixões Proibidas 97;Gabriel García Márquez;1989;32.32;43;901
+98;Corações em Chamas 98;Clarice Lispector;1877;41.9;28;505
+99;Sombras do Passado 99;José de Alencar;1997;117.78;34;525
+100;Corações em Chamas 100;Margaret Mitchell;1940;50.92;18;957

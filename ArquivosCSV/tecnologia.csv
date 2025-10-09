@@ -1,0 +1,101 @@
+isbn;titulo;autor;ano;preco;estoque;vendas
+101;Estruturas de Dados 1;Robert C. Martin;1913;46.06;37;729
+102;Código Limpo 2;Robert C. Martin;1939;67.83;7;389
+103;Engenharia de Software 3;Nilo Ney Menezes;1853;119.29;25;85
+104;Código Limpo 4;Robert C. Martin;1907;140.28;34;701
+105;Código Limpo 5;Donald Knuth;1894;29.59;5;851
+106;Código Limpo 6;Nilo Ney Menezes;1999;143.1;39;625
+107;Estruturas de Dados 7;Ian Sommerville;1977;111.86;8;653
+108;Redes e Protocolos 8;Erich Gamma;1963;60.51;6;517
+109;Código Limpo 9;Nilo Ney Menezes;1888;134.68;29;344
+110;Algoritmos Modernos 10;Andrew Tanenbaum;2021;130.13;8;799
+111;Código Limpo 11;Erich Gamma;1850;121.45;43;124
+112;Algoritmos Modernos 12;Nilo Ney Menezes;1890;89.0;18;393
+113;Estruturas de Dados 13;Erich Gamma;1975;45.97;12;808
+114;Código Limpo 14;Ian Sommerville;1962;123.49;40;601
+115;Redes e Protocolos 15;Nilo Ney Menezes;1880;95.94;28;629
+116;Estruturas de Dados 16;Robert C. Martin;1945;61.25;9;634
+117;Redes e Protocolos 17;Erich Gamma;1851;73.54;38;949
+118;Estruturas de Dados 18;Donald Knuth;1958;73.48;13;750
+119;Estruturas de Dados 19;Erich Gamma;1898;100.08;47;285
+120;Algoritmos Modernos 20;Robert C. Martin;1873;145.62;10;431
+121;Algoritmos Modernos 21;Nilo Ney Menezes;1978;63.66;17;592
+122;Engenharia de Software 22;Robert C. Martin;1946;42.03;16;663
+123;Engenharia de Software 23;Erich Gamma;1993;82.72;38;876
+124;Estruturas de Dados 24;Erich Gamma;1947;121.28;39;798
+125;Redes e Protocolos 25;Robert C. Martin;1863;120.9;48;972
+126;Algoritmos Modernos 26;Robert C. Martin;2004;129.26;16;81
+127;Redes e Protocolos 27;Erich Gamma;1955;136.03;11;559
+128;Código Limpo 28;Robert C. Martin;2005;32.71;29;450
+129;Estruturas de Dados 29;Donald Knuth;1854;29.37;26;403
+130;Redes e Protocolos 30;Ian Sommerville;2005;89.27;20;430
+131;Engenharia de Software 31;Erich Gamma;1959;104.48;41;657
+132;Redes e Protocolos 32;Ian Sommerville;1945;94.04;40;435
+133;Estruturas de Dados 33;Robert C. Martin;1967;40.86;11;647
+134;Algoritmos Modernos 34;Donald Knuth;2000;149.88;16;67
+135;Algoritmos Modernos 35;Nilo Ney Menezes;1936;107.34;7;432
+136;Engenharia de Software 36;Erich Gamma;1915;88.46;20;702
+137;Redes e Protocolos 37;Andrew Tanenbaum;1885;116.84;10;636
+138;Estruturas de Dados 38;Andrew Tanenbaum;1912;96.01;5;239
+139;Engenharia de Software 39;Nilo Ney Menezes;1906;37.73;25;413
+140;Código Limpo 40;Donald Knuth;2024;128.82;37;611
+141;Algoritmos Modernos 41;Erich Gamma;1941;149.05;32;835
+142;Estruturas de Dados 42;Robert C. Martin;1946;28.9;14;109
+143;Engenharia de Software 43;Ian Sommerville;1963;118.01;37;164
+144;Estruturas de Dados 44;Nilo Ney Menezes;1990;80.84;18;235
+145;Redes e Protocolos 45;Donald Knuth;1957;54.47;16;258
+146;Código Limpo 46;Ian Sommerville;1856;48.8;14;666
+147;Engenharia de Software 47;Ian Sommerville;2003;75.19;36;801
+148;Redes e Protocolos 48;Nilo Ney Menezes;1962;146.67;10;846
+149;Engenharia de Software 49;Ian Sommerville;1960;106.89;13;91
+150;Estruturas de Dados 50;Robert C. Martin;1862;71.0;31;415
+151;Engenharia de Software 51;Donald Knuth;1898;114.72;46;719
+152;Estruturas de Dados 52;Donald Knuth;1875;137.55;44;924
+153;Algoritmos Modernos 53;Donald Knuth;1966;74.85;9;114
+154;Engenharia de Software 54;Andrew Tanenbaum;1887;122.03;23;829
+155;Código Limpo 55;Ian Sommerville;1991;128.75;23;877
+156;Engenharia de Software 56;Erich Gamma;1933;33.88;37;227
+157;Redes e Protocolos 57;Ian Sommerville;1880;119.06;46;964
+158;Engenharia de Software 58;Nilo Ney Menezes;1905;35.73;16;983
+159;Redes e Protocolos 59;Nilo Ney Menezes;1949;69.75;10;365
+160;Código Limpo 60;Nilo Ney Menezes;1887;28.18;5;184
+161;Redes e Protocolos 61;Robert C. Martin;2011;77.17;23;587
+162;Código Limpo 62;Erich Gamma;1937;29.83;38;198
+163;Estruturas de Dados 63;Andrew Tanenbaum;2009;119.04;28;504
+164;Engenharia de Software 64;Robert C. Martin;1908;68.92;17;757
+165;Redes e Protocolos 65;Ian Sommerville;1996;117.66;6;944
+166;Estruturas de Dados 66;Ian Sommerville;1989;91.28;29;660
+167;Algoritmos Modernos 67;Andrew Tanenbaum;1982;103.69;36;607
+168;Algoritmos Modernos 68;Andrew Tanenbaum;1881;125.77;43;717
+169;Engenharia de Software 69;Andrew Tanenbaum;1863;41.43;12;59
+170;Engenharia de Software 70;Robert C. Martin;1893;120.3;43;105
+171;Engenharia de Software 71;Ian Sommerville;1965;96.41;5;195
+172;Redes e Protocolos 72;Donald Knuth;1920;120.96;15;805
+173;Redes e Protocolos 73;Andrew Tanenbaum;1974;102.92;41;515
+174;Engenharia de Software 74;Ian Sommerville;1868;41.25;24;250
+175;Redes e Protocolos 75;Robert C. Martin;2022;111.38;34;811
+176;Estruturas de Dados 76;Nilo Ney Menezes;1995;127.12;28;581
+177;Redes e Protocolos 77;Erich Gamma;1910;86.79;23;905
+178;Engenharia de Software 78;Donald Knuth;1969;111.98;14;251
+179;Engenharia de Software 79;Donald Knuth;1982;117.3;5;622
+180;Engenharia de Software 80;Nilo Ney Menezes;1881;87.82;29;309
+181;Algoritmos Modernos 81;Erich Gamma;2020;145.63;25;688
+182;Algoritmos Modernos 82;Erich Gamma;1972;76.35;28;689
+183;Redes e Protocolos 83;Erich Gamma;1954;76.72;38;831
+184;Estruturas de Dados 84;Erich Gamma;1910;86.99;31;373
+185;Algoritmos Modernos 85;Donald Knuth;1911;103.92;44;981
+186;Estruturas de Dados 86;Donald Knuth;1895;79.25;15;829
+187;Código Limpo 87;Nilo Ney Menezes;1858;31.0;44;914
+188;Redes e Protocolos 88;Andrew Tanenbaum;2022;55.57;41;108
+189;Redes e Protocolos 89;Nilo Ney Menezes;1880;113.63;5;303
+190;Algoritmos Modernos 90;Donald Knuth;1951;93.59;8;681
+191;Algoritmos Modernos 91;Andrew Tanenbaum;2007;135.93;31;811
+192;Estruturas de Dados 92;Nilo Ney Menezes;2024;48.74;6;76
+193;Engenharia de Software 93;Ian Sommerville;1951;59.97;50;825
+194;Algoritmos Modernos 94;Erich Gamma;1901;65.1;16;777
+195;Código Limpo 95;Ian Sommerville;1995;57.19;13;508
+196;Redes e Protocolos 96;Robert C. Martin;1864;32.61;48;514
+197;Engenharia de Software 97;Andrew Tanenbaum;1925;131.84;27;141
+198;Estruturas de Dados 98;Nilo Ney Menezes;1916;51.39;46;304
+199;Estruturas de Dados 99;Donald Knuth;1961;129.16;12;558
+200;Algoritmos Modernos 100;Robert C. Martin;1855;81.71;29;946
