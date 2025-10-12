@@ -1,101 +1,16 @@
 isbn;titulo;autor;ano;preco;estoque;vendas
-201;Revoluções e Mudanças 1;Leandro Karnal;1974;126.21;11;436
-202;Guerras e Impérios 2;Boris Fausto;1984;28.92;36;163
-203;Revoluções e Mudanças 3;Darcy Ribeiro;1969;71.52;48;255
-204;Brasil Colonial 4;Yuval Noah Harari;1895;64.25;41;242
-205;Guerras e Impérios 5;Eric Hobsbawm;1990;52.71;20;731
-206;Revoluções e Mudanças 6;Yuval Noah Harari;1935;85.62;33;975
-207;Brasil Colonial 7;Leandro Karnal;1868;48.3;31;231
-208;Brasil Colonial 8;Leandro Karnal;1859;66.08;19;498
-209;A História do Mundo 9;Leandro Karnal;1861;148.69;13;173
-210;Revoluções e Mudanças 10;Antony Beevor;1907;59.12;41;525
-211;Brasil Colonial 11;Darcy Ribeiro;1853;91.62;42;742
-212;Civilizações Antigas 12;Leandro Karnal;1970;113.66;5;299
-213;Guerras e Impérios 13;Antony Beevor;1923;32.64;23;725
-214;Civilizações Antigas 14;Darcy Ribeiro;1966;65.08;14;677
-215;A História do Mundo 15;Antony Beevor;1861;63.49;18;680
-216;Guerras e Impérios 16;Darcy Ribeiro;1945;78.74;30;977
-217;Brasil Colonial 17;Boris Fausto;1976;35.24;34;97
-218;Civilizações Antigas 18;Darcy Ribeiro;1882;119.33;21;672
-219;Civilizações Antigas 19;Leandro Karnal;1891;115.1;5;175
-220;A História do Mundo 20;Yuval Noah Harari;1908;98.36;8;298
-221;Revoluções e Mudanças 21;Boris Fausto;1984;78.28;25;429
-222;A História do Mundo 22;Darcy Ribeiro;1913;114.43;27;235
-223;Brasil Colonial 23;Eric Hobsbawm;1976;92.45;17;642
-224;Revoluções e Mudanças 24;Eric Hobsbawm;1939;133.26;28;826
-225;Guerras e Impérios 25;Eric Hobsbawm;1955;29.15;45;99
-226;Brasil Colonial 26;Eric Hobsbawm;2014;76.77;40;710
-227;A História do Mundo 27;Antony Beevor;1872;134.81;15;486
-228;Revoluções e Mudanças 28;Yuval Noah Harari;1908;112.12;29;143
-229;Guerras e Impérios 29;Antony Beevor;1860;61.14;43;330
-230;Civilizações Antigas 30;Eric Hobsbawm;1967;100.49;32;213
-231;Guerras e Impérios 31;Leandro Karnal;2002;37.88;22;775
-232;Revoluções e Mudanças 32;Antony Beevor;1923;88.76;50;400
-233;Guerras e Impérios 33;Yuval Noah Harari;1855;75.5;25;817
-234;Guerras e Impérios 34;Yuval Noah Harari;1919;78.41;8;748
-235;Brasil Colonial 35;Eric Hobsbawm;1855;59.41;23;630
-236;Guerras e Impérios 36;Eric Hobsbawm;1954;94.15;5;896
-237;Guerras e Impérios 37;Leandro Karnal;1889;26.48;11;907
-238;Civilizações Antigas 38;Eric Hobsbawm;1966;140.58;32;230
-239;Guerras e Impérios 39;Darcy Ribeiro;1920;121.33;27;767
-240;Guerras e Impérios 40;Eric Hobsbawm;1902;132.78;38;995
-241;Brasil Colonial 41;Yuval Noah Harari;1878;69.72;11;103
-242;A História do Mundo 42;Eric Hobsbawm;1863;37.41;18;459
-243;Brasil Colonial 43;Yuval Noah Harari;1973;67.98;49;482
-244;Revoluções e Mudanças 44;Eric Hobsbawm;1954;75.33;10;932
-245;Brasil Colonial 45;Boris Fausto;1963;30.46;38;531
-246;Civilizações Antigas 46;Yuval Noah Harari;1976;110.5;15;831
-247;Civilizações Antigas 47;Yuval Noah Harari;2006;67.47;33;254
-248;Civilizações Antigas 48;Antony Beevor;2018;88.46;42;380
-249;A História do Mundo 49;Boris Fausto;1973;104.07;22;195
-250;Revoluções e Mudanças 50;Boris Fausto;1885;130.07;11;212
-251;Revoluções e Mudanças 51;Darcy Ribeiro;1966;58.48;34;474
-252;Revoluções e Mudanças 52;Darcy Ribeiro;2001;71.28;21;549
-253;A História do Mundo 53;Yuval Noah Harari;1877;66.07;49;159
-254;A História do Mundo 54;Eric Hobsbawm;1990;106.01;33;924
-255;A História do Mundo 55;Leandro Karnal;1913;85.69;23;363
-256;Civilizações Antigas 56;Eric Hobsbawm;1907;140.65;9;563
-257;A História do Mundo 57;Darcy Ribeiro;1870;138.7;42;863
-258;Civilizações Antigas 58;Antony Beevor;2008;43.0;6;566
-259;Civilizações Antigas 59;Leandro Karnal;1851;126.41;15;892
-260;Revoluções e Mudanças 60;Leandro Karnal;1873;76.36;48;243
-261;Revoluções e Mudanças 61;Darcy Ribeiro;1895;109.36;48;558
-262;Civilizações Antigas 62;Eric Hobsbawm;1908;41.57;11;204
-263;Civilizações Antigas 63;Yuval Noah Harari;1895;119.55;42;965
-264;A História do Mundo 64;Leandro Karnal;1959;92.7;41;229
-265;A História do Mundo 65;Leandro Karnal;1979;123.25;48;621
-266;Guerras e Impérios 66;Darcy Ribeiro;1993;89.71;18;696
-267;Revoluções e Mudanças 67;Leandro Karnal;1904;109.9;44;533
-268;Revoluções e Mudanças 68;Boris Fausto;1889;57.08;19;804
-269;Brasil Colonial 69;Yuval Noah Harari;1892;148.73;11;328
-270;Civilizações Antigas 70;Antony Beevor;1891;74.81;39;918
-271;A História do Mundo 71;Eric Hobsbawm;1928;27.87;43;166
-272;A História do Mundo 72;Yuval Noah Harari;1971;42.67;44;565
-273;A História do Mundo 73;Boris Fausto;1869;62.01;35;674
-274;Guerras e Impérios 74;Eric Hobsbawm;1920;126.88;49;716
-275;Brasil Colonial 75;Boris Fausto;1985;115.12;8;600
-276;Brasil Colonial 76;Antony Beevor;1945;87.0;48;440
-277;Civilizações Antigas 77;Eric Hobsbawm;1900;121.59;42;568
-278;Guerras e Impérios 78;Leandro Karnal;1960;41.28;22;52
-279;Brasil Colonial 79;Leandro Karnal;1947;53.89;27;474
-280;Civilizações Antigas 80;Leandro Karnal;2019;117.19;39;389
-281;A História do Mundo 81;Darcy Ribeiro;2020;49.99;35;740
-282;Brasil Colonial 82;Antony Beevor;1936;101.08;22;768
-283;Brasil Colonial 83;Eric Hobsbawm;1934;52.9;24;592
-284;Guerras e Impérios 84;Darcy Ribeiro;1948;109.78;14;735
-285;Brasil Colonial 85;Darcy Ribeiro;2005;145.58;17;324
-286;Revoluções e Mudanças 86;Eric Hobsbawm;2022;65.13;32;556
-287;Brasil Colonial 87;Eric Hobsbawm;1929;136.55;15;780
-288;Guerras e Impérios 88;Darcy Ribeiro;1961;52.19;22;565
-289;Brasil Colonial 89;Darcy Ribeiro;1978;91.16;31;405
-290;Civilizações Antigas 90;Leandro Karnal;1878;26.89;12;351
-291;Revoluções e Mudanças 91;Leandro Karnal;1957;72.94;37;382
-292;A História do Mundo 92;Leandro Karnal;1982;42.43;20;184
-293;Guerras e Impérios 93;Darcy Ribeiro;1939;101.5;19;764
-294;Brasil Colonial 94;Eric Hobsbawm;1914;36.57;33;952
-295;A História do Mundo 95;Eric Hobsbawm;1934;114.23;38;58
-296;Revoluções e Mudanças 96;Eric Hobsbawm;1885;66.99;6;608
-297;Guerras e Impérios 97;Eric Hobsbawm;1981;47.45;7;749
-298;A História do Mundo 98;Eric Hobsbawm;1951;60.99;10;764
-299;A História do Mundo 99;Antony Beevor;1980;107.31;23;748
-300;Brasil Colonial 100;Leandro Karnal;1971;144.0;22;222
+101;Sapiens: Uma Breve História da Humanidade;Yuval Noah Harari;2011;59.90;35;520
+712;Armas, Germes e Aço;Jared Diamond;1997;55.50;18;315
+942;As Veias Abertas da América Latina;Eduardo Galeano;1971;45.00;12;280
+532;O Povo Brasileiro;Darcy Ribeiro;1995;48.90;22;410
+632;A História do Brasil Para Quem Tem Pressa;Marcos Costa;2016;29.99;40;655
+012;Box Dominação e Resistência;Leandro Karnal;2023;89.90;15;120
+783;Os Fornos de Hitler;Olga Lengyel;1947;39.90;8;95
+234;A Riqueza das Nações;Adam Smith;1776;42.75;5;88
+109;O Príncipe;Nicolau Maquiavel;1532;25.90;30;405
+114;Breve História do Mundo;Geoffrey Blainey;2000;37.25;25;290
+454;A Era dos Impérios;Eric Hobsbawm;1987;51.00;14;175
+554;Box Coleção Brasil Imperial;Isabel Lustosa;2022;120.00;10;80
+687;O Diário de Anne Frank;Anne Frank;1947;34.90;28;510
+190;História da Vida Privada no Brasil;Fernando A. Novais;1997;67.80;9;110
+174;1499: O Brasil Antes de Cabral;Reinaldo José Lopes;2022;49.99;20;185

@@ -12,26 +12,35 @@ No* novoNo(Categoria c){
     return n;
 }
 
-No* inserir(No* r, Categoria c){
+No* inserirCategoria(No* r, Categoria c){
     if(r == NULL){
         return novoNo(c);
     }
-    if(c.id < r->c.id){
-        r->esq = inserir(r->esq, c);
+
+    if(strcmp(c.nome, r->c.nome) < 0){
+        r->esq = inserirCategoria(r->esq, c);
     }
-    else if(c.id > r->c.id){
-        r->dir = inserir(r->dir, c);
+    else if(strcmp(c.nome, r->c.nome) > 0){
+        r->dir = inserirCategoria(r->dir, c);
     }
 
     return r;
 }
 
-No* buscar(No* r, int id){
-    if(r == NULL || r->c.id == id){
-        return r;
+No* buscar(No* r, const char* nome){
+    if(r == NULL){
+        return NULL;
     }
 
-    return (id < r->c.id) ? buscar(r->esq, id) : buscar(r->dir, id);
+    if(strcmp(nome, r->c.nome) == 0){
+        return r;
+    } 
+    else if(strcmp(nome, r->c.nome) < 0){
+        return buscar(r->esq, nome);
+    } 
+    else{
+        return buscar(r->dir, nome);
+    }
 }
 
 void emOrdem(No* r){
@@ -50,16 +59,16 @@ No* maiorNo(No* r){
     return atual;
 }
 
-No* remover(No* r, int id){
+No* remover(No* r, const char* nome){
     if(r == NULL){
         return NULL;
     }
 
-    if(id < r->c.id){
-        r->esq = remover(r->esq, id);
+    if(strcmp(nome, r->c.nome) < 0){
+        r->esq = remover(r->esq, nome);
     } 
-    else if(id > r->c.id){
-        r->dir = remover(r->dir, id);
+    else if(strcmp(nome, r->c.nome) > 0){
+        r->dir = remover(r->dir, nome);
     } 
     else{
         if(r->esq == NULL && r->dir == NULL){
@@ -79,7 +88,7 @@ No* remover(No* r, int id){
         else{
             No* pred = maiorNo(r->esq);
             r->c = pred->c;
-            r->esq = remover(r->esq, pred->c.id);
+            r->esq = remover(r->esq, pred->c.nome);
         }
     }
 

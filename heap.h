@@ -13,10 +13,10 @@ typedef struct {
 } Heap;
 
 Heap* criarHeap(int capacidade);
-void maxHeapify(Heap *h, int i);
-void construirHeap(Heap *h);
-void buscarRaiz(Heap *h);
+void inserirLivro(Heap* heap, Livro l);
+Livro buscarRaiz(Heap *h);
 void buscarN(Heap* h, int n);
+void atualizarVendas(Heap *h, int isbn, int qntdVendida);
 void liberarHeap(Heap *h);
 
 #endif
