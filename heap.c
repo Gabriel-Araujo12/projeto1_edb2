@@ -6,12 +6,6 @@ static void troca(Livro *a, Livro *b) {
     *b = temp;
 }
 
-static int compara(const void *a, const void *b) {
-    const Livro *l1 = (Livro*)a;
-    const Livro *l2 = (Livro*)b;
-    return l2->vendas - l1->vendas;
-}
-
 Heap* criarHeap(int capacidade){
     Heap* h = (Heap*)malloc(sizeof(Heap));
     h->tamanho = 0;
@@ -21,28 +15,35 @@ Heap* criarHeap(int capacidade){
     return h;
 }
 
-void maxHeapify(Heap *h, int i){
+void maxHeapify(Livro* a, int n, int i){
     int maior = i;
     int e = 2 * i + 1;
     int d = 2 * i + 2;
 
-    if(e < h->tamanho && h->l[e].vendas > h->l[maior].vendas){
+    if(e < n && a[e].vendas > a[maior].vendas){
         maior = e;
     }
-    if(d < h->tamanho && h->l[d].vendas > h->l[maior].vendas){
+    if(d < n && a[d].vendas > a[maior].vendas){
         maior = d;
     }
     if(maior != i){
-        troca(&h->l[i], &h->l[maior]);
-        maxHeapify(h, maior);
+        troca(&a[i], &a[maior]);
+        maxHeapify(a, n, maior);
     }
 }
 
-void construirHeap(Heap *h){
-    int n = h->tamanho;
-
+void construirHeap(Livro* a, int n){
     for(int i = (n / 2) - 1; i >= 0; i--){
-        maxHeapify(h, i);
+        maxHeapify(a, n, i);
+    }
+}
+
+void heapSort(Livro* a, int n){
+    construirHeap(a, n);
+
+    for(int i = n - 1; i > 0; i--){
+        troca(&a[0], &a[i]);
+        maxHeapify(a, i, 0);
     }
 }
 
@@ -91,12 +92,13 @@ void buscarN(Heap* h, int n){
     Livro *copia = malloc(h->tamanho * sizeof(Livro));
     memcpy(copia, h->l, h->tamanho * sizeof(Livro));
 
-    qsort(copia, h->tamanho, sizeof(Livro), compara);
+    heapSort(copia, h->tamanho);
 
     printf("\n----------------- Top %d Livro Mais Vendido -----------------\n\n", n);
     for(int i = 0; i < n; i++){
+        int indice = h->tamanho - 1 - i;
         printf("%dº ", i + 1);
-        exibirLivro(copia[i]);
+        exibirLivro(copia[indice]);
     }
     printf("\n------------------------------------------------------------\n\n");
 
