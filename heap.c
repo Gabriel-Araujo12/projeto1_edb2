@@ -48,7 +48,7 @@ void construirHeap(Heap *h){
 
 void inserirLivro(Heap* h, Livro l){
     if(h->tamanho == h->capacidade){
-        printf("Não é possível adicionar mais livros devido ao espaço!\n");
+        printf("\n---> Não é possível adicionar mais livros devido ao espaço!\n\n");
 
         return;
     }
@@ -67,7 +67,7 @@ Livro buscarRaiz(Heap *h){
     Livro vazio = {0};
 
     if(h->tamanho <= 0){
-        printf("Não há nenhum livro para exibir!");
+        printf("\n---> Não há nenhum livro para exibir!\n\n");
 
         return vazio;
     }
@@ -77,13 +77,13 @@ Livro buscarRaiz(Heap *h){
 
 void buscarN(Heap* h, int n){
     if(n > h->tamanho){
-        printf("O valor escolhido é maior do que a quantidade existente, logo, todos serão exibidos!");
+        printf("\n---> O valor escolhido é maior do que a quantidade existente, logo, todos serão exibidos!\n");
 
         n = h->tamanho;
     }
 
     if(n <= 0){
-        printf("O valor escolhido é inválido!");
+        printf("\n---> O valor escolhido é inválido!\n\n");
 
         return;
     }
@@ -93,11 +93,12 @@ void buscarN(Heap* h, int n){
 
     qsort(copia, h->tamanho, sizeof(Livro), compara);
 
-    printf("------------Top %d livros mais vendidos------------", n);
+    printf("\n----------------- Top %d Livro Mais Vendido -----------------\n\n", n);
     for(int i = 0; i < n; i++){
         printf("%dº ", i + 1);
         exibirLivro(copia[i]);
     }
+    printf("\n------------------------------------------------------------\n\n");
 
     free(copia);
 }
@@ -114,13 +115,13 @@ void atualizarVendas(Heap *h, int isbn, int qntdVendida){
     }
 
     if(i == -1){
-        printf("ISBN indicado não foi encontrado entre os livros listados!\n");
+        printf("\n---> ISBN indicado não foi encontrado entre os livros listados!\n\n");
 
         return;
     }
 
     if(h->l[i].estoque < qntdVendida){
-        printf("A quantidade vendida supera o número de livros disponíveis!\n");
+        printf("\n---> A quantidade vendida supera o número de livros disponíveis!\n\n");
 
         return;
     }
@@ -128,7 +129,7 @@ void atualizarVendas(Heap *h, int isbn, int qntdVendida){
     h->l[i].estoque -= qntdVendida;
     h->l[i].vendas += qntdVendida;
 
-    printf("A venda foi registrada!\n");
+    printf("\n---> A venda foi registrada!\n\n");
 
     while(i != 0 && h->l[(i - 1) / 2].vendas < h->l[i].vendas){
         troca(&h->l[i], &h->l[(i - 1) / 2]);

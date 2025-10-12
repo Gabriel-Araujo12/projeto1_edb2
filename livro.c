@@ -14,5 +14,5 @@ Livro criarLivro(int isbn, char *titulo, char *autor, int ano, float preco, int 
 }
 
 void exibirLivro(Livro l){
-    printf("ISBN: %d | Título: %s | Autor: %s | Ano: %d | Preço: %.2f | Estoque: %d | Vendas: %d\n", l.isbn, l.titulo, l.autor, l.ano, l.preco, l.estoque, l.vendas);
+    printf("ISBN: %d | Título: %s | Autor: %s | Ano: %d | Preço: R$ %.2f | Estoque: %d | Vendas: %d\n", l.isbn, l.titulo, l.autor, l.ano, l.preco, l.estoque, l.vendas);
 }

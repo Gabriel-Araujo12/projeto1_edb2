@@ -27,6 +27,34 @@ No* inserirCategoria(No* r, Categoria c){
     return r;
 }
 
+No* carregarCategoria(const char* arquivo){
+    FILE* arquivoCategoria = fopen(arquivo, "r");
+
+    if(arquivoCategoria == NULL){
+        printf("\n---> Não foi possível abrir o arquivo!\n\n");
+
+        return NULL;
+    }
+
+    No* raiz = NULL;
+    char linha[256];
+    fgets(linha, sizeof(linha), arquivoCategoria);
+
+    while(fgets(linha, sizeof(linha), arquivoCategoria)){
+        int id;
+        char nome[100], arquivoLivro[100];
+
+        if(sscanf(linha, "%d;%99[^;];%99[^\n]", &id, nome, arquivoLivro) == 3){
+            Categoria c = criarCategoria(id, nome, arquivoLivro);
+            raiz = inserirCategoria(raiz, c);
+        }
+    }
+
+    fclose(arquivoCategoria);
+    
+    return raiz;
+}
+
 No* buscar(No* r, const char* nome){
     if(r == NULL){
         return NULL;
@@ -102,5 +130,10 @@ void liberarArvore(No* r){
 
     liberarArvore(r->esq);
     liberarArvore(r->dir);
+
+    if(r->c.livros != NULL){
+        liberarHeap(r->c.livros);
+    }
+
     free(r);
 }

@@ -14,6 +14,7 @@ typedef struct No {
 
 No* novoNo(Categoria c);
 No* inserirCategoria(No* r, Categoria c);
+No* carregarCategoria(const char* arquivo);
 No* buscar(No* r, const char* nome);
 void emOrdem(No* r);
 No* maiorNo(No* r);
